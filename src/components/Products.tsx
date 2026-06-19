@@ -1,14 +1,14 @@
 import { useTranslations } from "next-intl";
-import { BoardIcon, BowlIcon, TrayIcon, UtensilIcon, StarIcon } from "./icons";
+import { StarIcon } from "./icons";
 
 export default function Products() {
   const t = useTranslations("products");
 
   const cards = [
-    { key: "cat_boards", Icon: BoardIcon },
-    { key: "cat_bowls", Icon: BowlIcon },
-    { key: "cat_trays", Icon: TrayIcon },
-    { key: "cat_utensils", Icon: UtensilIcon }
+    { key: "cat_boards",   img: "/images/prod-boards.jpg" },
+    { key: "cat_bowls",    img: "/images/prod-bowls.jpg" },
+    { key: "cat_trays",    img: "/images/prod-trays.jpg" },
+    { key: "cat_utensils", img: "/images/prod-utensils.jpg" }
   ] as const;
 
   return (
@@ -24,10 +24,11 @@ export default function Products() {
       </div>
       <div className="wrap">
         <div className="grid4">
-          {cards.map(({ key, Icon }) => (
+          {cards.map(({ key, img }) => (
             <div className="pcard reveal" key={key}>
               <div className="ph">
-                <Icon />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={img} alt={t(key)} />
               </div>
               <h3>{t(key)}</h3>
               <span className="tag">

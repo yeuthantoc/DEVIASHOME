@@ -1,8 +1,15 @@
 import { useTranslations } from "next-intl";
+import { ClipboardIcon, PencilRulerIcon, ShieldCheckIcon, TruckIcon } from "./icons";
 
 export default function Process() {
   const t = useTranslations("process");
-  const steps = ["step1", "step2", "step3", "step4"] as const;
+
+  const steps = [
+    { key: "step1", num: "01", Icon: ClipboardIcon },
+    { key: "step2", num: "02", Icon: PencilRulerIcon },
+    { key: "step3", num: "03", Icon: ShieldCheckIcon },
+    { key: "step4", num: "04", Icon: TruckIcon }
+  ] as const;
 
   return (
     <section className="process" id="process">
@@ -15,10 +22,18 @@ export default function Process() {
       </div>
       <div className="wrap">
         <div className="steps">
-          {steps.map((s) => (
-            <div className="step reveal" key={s}>
-              <h3>{t(`${s}_h`)}</h3>
-              <p>{t(`${s}_p`)}</p>
+          {steps.map(({ key, num, Icon }) => (
+            <div className="step reveal" key={key}>
+              <div className="step-badge">
+                <div className="step-icon-wrap">
+                  <Icon />
+                </div>
+                <span className="step-num">{num}</span>
+              </div>
+              <div className="step-body">
+                <h3>{t(`${key}_h`)}</h3>
+                <p>{t(`${key}_p`)}</p>
+              </div>
             </div>
           ))}
         </div>

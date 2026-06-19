@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { FactoryIcon, DropIcon, FlaskIcon, GearIcon, BoxIcon } from "./icons";
+import { DropIcon, FlaskIcon, GearIcon, BoxIcon } from "./icons";
 
 export default function Capabilities() {
   const t = useTranslations("caps");
@@ -15,13 +15,13 @@ export default function Capabilities() {
     <section className="caps" id="caps">
       <div className="wrap">
         <div className="photo reveal">
-          {/* Replace with your factory / workshop photo */}
-          <FactoryIcon />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/factory.jpg" alt="DEVIAS HOME workshop" />
         </div>
         <div className="reveal">
           <span className="eyebrow">{t("eyebrow")}</span>
           <h2>{t("h2")}</h2>
-          <p className="lead">{t("lead")}</p>
+          <p className="caps-body">{t("lead")}</p>
 
           {feats.map(({ key, Icon }) => (
             <div className="feat" key={key}>

@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { BrandLogo } from "./icons";
 import { CONTACT } from "@/lib/site";
 
@@ -53,6 +54,12 @@ export default function Footer() {
               </li>
               <li>
                 Email: <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
+              </li>
+              <li style={{ marginTop: "14px" }}>
+                <Link href="/oem" style={{ color: "var(--sage)", fontWeight: 600 }}>OEM / ODM →</Link>
+              </li>
+              <li>
+                <Link href="/about" style={{ color: "var(--sage)", fontWeight: 600 }}>{t("about_link")} →</Link>
               </li>
             </ul>
           </div>

@@ -100,7 +100,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} className={fontVars}>
-      <body>
+      <body suppressHydrationWarning>
         <JsonLd />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
         <Analytics />
