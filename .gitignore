@@ -7,15 +7,15 @@ Thumbs.db
 .idea/
 *.swp
 
-# Antigravity / Gemini local state (keep project AGENTS.md tracked)
-.gemini/
-.agent/cache/
+# Claude Code — keep .claude/commands tracked, ignore personal local settings
+.claude/settings.local.json
 
 # Env / secrets
 .env
 .env.*
+!.env.example
 
-# Node (if you later migrate to Next.js)
+# Node (if you migrate to Next.js)
 node_modules/
 .next/
 dist/
