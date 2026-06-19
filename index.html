@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- ============================================================
+     SEO  (titles/descriptions auto-swap with language switcher)
+     ============================================================ -->
+<title>DEVIAS HOME — Vietnamese Wooden Kitchenware Manufacturer & Exporter (OEM/ODM)</title>
+<meta name="description" content="Vietnam-based manufacturer and B2B exporter of food-safe wooden kitchenware. OEM/ODM cutting boards, bowls, trays and utensils with oil/lacquer finish. Trusted by major Korean retailers." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://www.your-domain.com/" />
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DEVIAS HOME — Vietnamese Wooden Kitchenware Manufacturer & Exporter" />
+<meta property="og:description" content="Food-safe, sustainable wooden kitchenware. OEM/ODM manufacturing, export from Vietnam." />
+<meta property="og:image" content="https://www.your-domain.com/og-image.jpg" />
+<meta property="og:url" content="https://www.your-domain.com/" />
+
+<!-- Multilingual SEO: when you deploy separate URLs per language (recommended for full SEO),
+     replace these with real /en /ko /vi paths. -->
+<link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/" />
+<link rel="alternate" hreflang="ko" href="https://www.your-domain.com/ko/" />
+<link rel="alternate" hreflang="vi" href="https://www.your-domain.com/vi/" />
+<link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/" />
+
+<!-- ============================================================
+     ANALYTICS — paste your real IDs where marked
+     ============================================================ -->
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');   // <-- REPLACE with your GA4 Measurement ID
+</script>
+
+<!-- Meta (Facebook) Pixel -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'YOUR_PIXEL_ID');     // <-- REPLACE with your Meta Pixel ID
+  fbq('track', 'PageView');
+</script>
+
+<!-- Structured data (helps Google understand the business) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "DEVIAS HOME",
+  "description": "Vietnamese manufacturer and B2B exporter of food-safe wooden kitchenware (OEM/ODM).",
+  "url": "https://www.your-domain.com/",
+  "logo": "https://www.your-domain.com/logo.png",
+  "address": [
+    {"@type":"PostalAddress","streetAddress":"183/14/5 Nguyen Van Khoi, Ward 8, Go Vap District","addressLocality":"Ho Chi Minh City","addressCountry":"VN"},
+    {"@type":"PostalAddress","streetAddress":"Nghi Lam Commune, Nghi Loc District","addressRegion":"Nghe An Province","addressCountry":"VN"}
+  ],
+  "email": "lynh.huynhhoang@gmail.com",
+  "telephone": "+84911326989"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ============================================================
+     DESIGN TOKENS  — derived from the DEVIAS HOME logo
+     ============================================================ */
+  :root{
+    --charcoal:#373435;
+    --charcoal-soft:#55504e;
+    --leaf:#6FA15B;        /* primary CTA / accent (the heart-leaf) */
+    --leaf-dark:#5a8649;   /* button hover */
+    --sage:#91B370;        /* secondary accent (logo bottom band) */
+    --wood:#B8865B;        /* warm wood accent */
+    --wood-dark:#8a5f3a;
+    --cream:#F7F2E9;       /* warm section background */
+    --cream-deep:#efe6d6;
+    --white:#ffffff;
+    --line:#e7ded0;
+    --espresso:#2a1e14;    /* hero overlay base */
+
+    --ff-display:"Playfair Display","Noto Serif KR",Georgia,serif;
+    --ff-body:"Inter","Noto Sans KR","Helvetica Neue",Arial,sans-serif;
+
+    --maxw:1180px;
+    --radius:14px;
+    --shadow:0 18px 50px -22px rgba(55,52,53,.35);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--ff-body);
+    color:var(--charcoal);
+    background:var(--white);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:var(--ff-display);line-height:1.12;font-weight:600;color:var(--charcoal)}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+
+  .eyebrow{
+    font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:600;color:var(--wood-dark);margin-bottom:14px;
+    display:inline-flex;align-items:center;gap:9px;
+  }
+  .eyebrow::before{content:"";width:26px;height:1.5px;background:var(--wood)}
+
+  /* ---------- buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    font-family:var(--ff-body);font-weight:600;font-size:.98rem;
+    padding:14px 26px;border-radius:999px;cursor:pointer;border:1.5px solid transparent;
+    transition:transform .18s ease, background .2s ease, box-shadow .2s ease, color .2s;
+  }
+  .btn-primary{background:var(--leaf);color:#fff}
+  .btn-primary:hover{background:var(--leaf-dark);transform:translateY(-2px);box-shadow:0 14px 26px -12px rgba(111,161,91,.7)}
+  .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
+  .btn-ghost:hover{background:rgba(255,255,255,.12);transform:translateY(-2px)}
+  .btn-outline{background:transparent;color:var(--charcoal);border-color:var(--line)}
+  .btn-outline:hover{border-color:var(--wood);color:var(--wood-dark);transform:translateY(-2px)}
+
+  /* ============================================================
+     HEADER  (transparent over hero → solid white on scroll)
+     ============================================================ */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    transition:background .3s ease, box-shadow .3s ease, padding .3s ease;
+    padding:20px 0;
+  }
+  header.scrolled{background:#fff;box-shadow:0 6px 30px -18px rgba(0,0,0,.3);padding:12px 0}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .brand{display:flex;align-items:center;gap:11px;font-family:var(--ff-display);font-weight:700;font-size:1.18rem;color:#fff;transition:color .3s}
+  header.scrolled .brand{color:var(--charcoal)}
+  .brand .leaf{width:34px;height:34px;flex:0 0 auto}
+  .brand small{display:block;font-family:var(--ff-body);font-weight:500;font-size:.6rem;letter-spacing:.28em;opacity:.85;margin-top:1px}
+
+  .menu{display:flex;align-items:center;gap:30px;list-style:none}
+  .menu a{color:rgba(255,255,255,.92);font-weight:500;font-size:.95rem;transition:color .2s;position:relative}
+  .menu a:hover{color:#fff}
+  header.scrolled .menu a{color:var(--charcoal-soft)}
+  header.scrolled .menu a:hover{color:var(--leaf-dark)}
+
+  .nav-right{display:flex;align-items:center;gap:20px}
+  .lang{display:flex;gap:6px;font-size:.85rem;font-weight:600;color:rgba(255,255,255,.85)}
+  header.scrolled .lang{color:var(--charcoal-soft)}
+  .lang button{background:none;border:none;cursor:pointer;color:inherit;font:inherit;padding:2px 4px;opacity:.7;transition:opacity .2s,color .2s}
+  .lang button:hover{opacity:1}
+  .lang button.active{opacity:1;color:var(--leaf)}
+  .lang span{opacity:.5}
+
+  .burger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:6px}
+  .burger span{width:24px;height:2px;background:#fff;transition:background .3s}
+  header.scrolled .burger span{background:var(--charcoal)}
+
+  /* ============================================================
+     HERO
+     ============================================================ */
+  .hero{
+    position:relative;min-height:100vh;display:flex;align-items:center;
+    /* TO ADD YOUR PHOTO: put the image first in the list below, e.g.
+       background-image:url('hero.jpg'), linear-gradient(...);  */
+    background:
+      linear-gradient(180deg, rgba(42,30,20,.55) 0%, rgba(42,30,20,.35) 45%, rgba(42,30,20,.72) 100%),
+      radial-gradient(120% 90% at 70% 30%, #7a5631 0%, #5c3f23 38%, #3a2716 75%, #2a1c10 100%);
+    background-size:cover;background-position:center;
+    color:#fff;
+  }
+  .hero::after{ /* subtle wood-grain texture so the placeholder feels intentional */
+    content:"";position:absolute;inset:0;opacity:.10;pointer-events:none;
+    background:repeating-linear-gradient(92deg, transparent 0 9px, rgba(0,0,0,.5) 9px 10px);
+  }
+  .hero-inner{position:relative;z-index:2;max-width:780px;padding-top:60px}
+  .hero h1{font-size:clamp(2.5rem,5.4vw,4.3rem);font-weight:700;text-shadow:0 2px 24px rgba(0,0,0,.35)}
+  .hero p{font-size:clamp(1.05rem,1.7vw,1.32rem);margin:24px 0 36px;max-width:600px;color:rgba(255,255,255,.94)}
+  .hero-cta{display:flex;gap:16px;flex-wrap:wrap}
+
+  /* ---------- trust bar ---------- */
+  .trustbar{
+    position:absolute;left:0;right:0;bottom:0;z-index:3;
+    background:var(--cream);border-top:1px solid var(--line);
+  }
+  .trustbar .wrap{display:flex;align-items:center;gap:30px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px;justify-content:center}
+  .certs{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .cert{
+    font-size:.66rem;font-weight:700;letter-spacing:.04em;color:var(--charcoal-soft);
+    border:1.4px solid var(--line);border-radius:8px;padding:7px 10px;background:#fff;text-transform:uppercase;
+    display:inline-flex;align-items:center;gap:5px;
+  }
+  .cert b{color:var(--leaf-dark)}
+  .trust-label{font-size:.92rem;color:var(--charcoal-soft);font-weight:500}
+  /* Retailer wordmarks — replace with official authorized logos if you have permission to use them */
+  .retailers{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+  .retailers span{font-weight:800;font-size:1.02rem;color:#9a9a9a;letter-spacing:-.01em}
+
+  /* ============================================================
+     SECTION base
+     ============================================================ */
+  section{padding:96px 0}
+  .section-head{text-align:center;max-width:680px;margin:0 auto 52px}
+  .section-head h2{font-size:clamp(1.9rem,3.4vw,2.7rem)}
+  .section-head p{color:var(--charcoal-soft);margin-top:14px;font-size:1.06rem}
+
+  /* ---------- products ---------- */
+  .products{background:#fff}
+  .products .top-link{text-align:right;max-width:var(--maxw);margin:-30px auto 22px;padding:0 28px}
+  .products .top-link a{color:var(--leaf-dark);font-weight:600;font-size:.96rem;display:inline-flex;align-items:center;gap:6px}
+  .products .top-link a:hover{gap:10px;transition:gap .2s}
+  .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+  .pcard{
+    background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);
+    padding:16px 16px 22px;transition:transform .25s ease,box-shadow .25s ease;
+  }
+  .pcard:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+  .pcard .ph{
+    aspect-ratio:1/1;border-radius:10px;margin-bottom:18px;position:relative;overflow:hidden;
+    background:linear-gradient(135deg,#caa06f 0%,#a9774a 55%,#8a5d36 100%);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .pcard .ph svg{width:52px;height:52px;opacity:.85;color:#fff8ef}
+  .pcard .ph::after{content:"";position:absolute;inset:0;opacity:.12;
+    background:repeating-linear-gradient(115deg,transparent 0 6px,rgba(0,0,0,.4) 6px 7px)}
+  .pcard h3{font-size:1.18rem;font-family:var(--ff-body);font-weight:700;margin-bottom:12px}
+  .tag{display:inline-flex;align-items:center;gap:7px;background:var(--leaf);color:#fff;
+    font-size:.78rem;font-weight:600;padding:6px 13px;border-radius:999px}
+  .tag svg{width:13px;height:13px}
+
+  /* ---------- capabilities / food-safe ---------- */
+  .caps{background:var(--cream)}
+  .caps .wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .caps .photo{
+    aspect-ratio:4/3.4;border-radius:var(--radius);overflow:hidden;position:relative;
+    background:linear-gradient(160deg,#d9c3a3 0%,#bfa078 45%,#9d7c54 100%);box-shadow:var(--shadow);
+  }
+  .caps .photo svg{position:absolute;inset:0;margin:auto;width:84px;height:84px;color:#fff;opacity:.7}
+  .caps .photo::after{content:"";position:absolute;inset:0;opacity:.12;
+    background:repeating-linear-gradient(120deg,transparent 0 8px,rgba(0,0,0,.4) 8px 9px)}
+  .caps h2{font-size:clamp(1.9rem,3.4vw,2.8rem);margin-bottom:18px}
+  .caps .lead{color:var(--charcoal-soft);font-size:1.06rem;margin-bottom:30px}
+  .feat{display:flex;align-items:center;gap:16px;padding:13px 0;border-bottom:1px solid var(--line)}
+  .feat:last-of-type{border-bottom:none}
+  .feat .ic{width:46px;height:46px;border-radius:50%;background:var(--leaf);flex:0 0 auto;
+    display:flex;align-items:center;justify-content:center;color:#fff}
+  .feat .ic svg{width:22px;height:22px}
+  .feat span{font-weight:600;font-size:1.05rem}
+  .cap-certs{display:flex;gap:34px;flex-wrap:wrap;margin-top:30px;padding-top:26px;border-top:1px solid var(--line)}
+  .cap-certs div{display:flex;align-items:center;gap:9px;font-weight:700;color:var(--charcoal);font-size:.92rem}
+  .cap-certs .badge{width:34px;height:34px;border:2px solid var(--charcoal);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:800}
+
+  /* ---------- process ---------- */
+  .process{background:#fff}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;counter-reset:s}
+  .step{position:relative;padding:30px 22px;background:var(--cream);border-radius:var(--radius);border:1px solid var(--line)}
+  .step::before{counter-increment:s;content:"0" counter(s);font-family:var(--ff-display);font-size:2.4rem;
+    color:var(--wood);opacity:.5;font-weight:700;display:block;margin-bottom:12px;line-height:1}
+  .step h3{font-family:var(--ff-body);font-weight:700;font-size:1.1rem;margin-bottom:8px}
+  .step p{color:var(--charcoal-soft);font-size:.94rem}
+
+  /* ---------- insights / blog SEO space ---------- */
+  .insights{background:var(--cream)}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  .acard{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    transition:transform .25s,box-shadow .25s}
+  .acard:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+  .acard .ph{height:180px;background:linear-gradient(135deg,var(--sage),var(--leaf-dark))}
+  .acard .body{padding:22px}
+  .acard .cat{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--wood-dark);font-weight:700}
+  .acard h3{font-family:var(--ff-body);font-weight:700;font-size:1.12rem;margin:10px 0 10px}
+  .acard a.read{color:var(--leaf-dark);font-weight:600;font-size:.9rem}
+
+  /* ---------- lead form ---------- */
+  .lead{background:var(--espresso);color:#fff;position:relative;overflow:hidden}
+  .lead::before{content:"";position:absolute;inset:0;opacity:.08;
+    background:radial-gradient(60% 80% at 80% 10%, var(--sage), transparent 60%)}
+  .lead .wrap{position:relative;display:grid;grid-template-columns:1fr 1.15fr;gap:60px;align-items:center}
+  .lead h2{color:#fff;font-size:clamp(2rem,3.6vw,2.9rem)}
+  .lead .lead-sub{color:rgba(255,255,255,.82);margin:18px 0 26px;font-size:1.08rem}
+  .lead ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+  .lead ul li{display:flex;gap:11px;align-items:center;color:rgba(255,255,255,.9);font-size:.98rem}
+  .lead ul li svg{width:20px;height:20px;color:var(--sage);flex:0 0 auto}
+  .form{background:#fff;border-radius:18px;padding:30px;color:var(--charcoal);box-shadow:var(--shadow)}
+  .form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .field{margin-bottom:14px}
+  .field label{display:block;font-size:.82rem;font-weight:600;margin-bottom:6px;color:var(--charcoal-soft)}
+  .field input,.field select,.field textarea{
+    width:100%;padding:12px 13px;border:1.4px solid var(--line);border-radius:10px;
+    font:inherit;font-size:.95rem;color:var(--charcoal);background:#fdfcfa;transition:border .2s,box-shadow .2s}
+  .field input:focus,.field select:focus,.field textarea:focus{
+    outline:none;border-color:var(--leaf);box-shadow:0 0 0 3px rgba(111,161,91,.18)}
+  .field textarea{resize:vertical;min-height:84px}
+  .form .btn-primary{width:100%;justify-content:center;margin-top:6px}
+  .form-note{text-align:center;font-size:.82rem;color:var(--charcoal-soft);margin-top:12px}
+  .form-ok{display:none;text-align:center;padding:40px 10px}
+  .form-ok svg{width:54px;height:54px;color:var(--leaf);margin:0 auto 14px}
+  .form-ok h3{font-family:var(--ff-body);font-weight:700;font-size:1.3rem;margin-bottom:8px}
+
+  /* ---------- footer ---------- */
+  footer{background:#2b2826;color:rgba(255,255,255,.78);padding:64px 0 30px;font-size:.93rem}
+  .fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12)}
+  footer h4{color:#fff;font-family:var(--ff-body);font-weight:700;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:16px}
+  footer .brand{color:#fff;margin-bottom:16px}
+  footer p,footer li{line-height:1.7}
+  footer ul{list-style:none}
+  footer a:hover{color:var(--sage)}
+  .fbot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding-top:24px;font-size:.85rem;color:rgba(255,255,255,.55)}
+
+  /* ---------- reveal animation ---------- */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+  }
+
+  /* ============================================================
+     RESPONSIVE
+     ============================================================ */
+  @media (max-width:980px){
+    .grid4{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:repeat(2,1fr)}
+    .grid3{grid-template-columns:1fr}
+    .caps .wrap,.lead .wrap{grid-template-columns:1fr;gap:38px}
+    .fgrid{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:760px){
+    .menu{
+      position:fixed;top:0;right:-100%;height:100vh;width:78%;max-width:320px;
+      background:#fff;flex-direction:column;align-items:flex-start;gap:0;padding:90px 30px;
+      box-shadow:-20px 0 50px -20px rgba(0,0,0,.4);transition:right .32s ease;z-index:60}
+    .menu.open{right:0}
+    .menu a{color:var(--charcoal);font-size:1.05rem;padding:14px 0;width:100%;border-bottom:1px solid var(--line)}
+    .burger{display:flex;z-index:61}
+    header .nav-right .lang{display:none}
+    .menu .lang-mobile{display:flex !important;margin-top:18px;color:var(--charcoal)}
+    .menu .lang-mobile button{color:var(--charcoal)}
+    .hero-cta{flex-direction:column;align-items:stretch}
+    .hero-cta .btn{justify-content:center}
+    .trustbar{position:static}
+    .hero{min-height:auto;padding:130px 0 60px}
+    .grid4{grid-template-columns:1fr}
+    .steps{grid-template-columns:1fr}
+    .form .row{grid-template-columns:1fr}
+    .fgrid{grid-template-columns:1fr}
+    section{padding:64px 0}
+  }
+  .lang-mobile{display:none}
+</style>
+</head>
+<body>
+
+<!-- ============================== HEADER ============================== -->
+<header id="header">
+  <div class="wrap nav">
+    <a href="#" class="brand" aria-label="DEVIAS HOME home">
+      <svg class="leaf" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <path d="M9 40V20l15-12 15 12v20" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M24 30c-4-1-7-4-7-8 4 0 7 2 7 5 0-4 3-7 7-7 0 5-3 9-7 10z" fill="#6FA15B" stroke="none"/>
+      </svg>
+      <span>DEVIAS HOME<small>KITCHEN DECO</small></span>
+    </a>
+
+    <ul class="menu" id="menu">
+      <li><a href="#products" data-i18n="nav_products">Products</a></li>
+      <li><a href="#caps" data-i18n="nav_caps">Capabilities</a></li>
+      <li><a href="#process" data-i18n="nav_sustain">Sustainability</a></li>
+      <li><a href="#insights" data-i18n="nav_about">About</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      <li class="lang lang-mobile">
+        <button data-lang="en">EN</button><span>/</span>
+        <button data-lang="ko">KO</button><span>/</span>
+        <button data-lang="vi">VI</button>
+      </li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="lang" id="lang">
+        <button data-lang="en" class="active">EN</button><span>/</span>
+        <button data-lang="ko">KO</button><span>/</span>
+        <button data-lang="vi">VI</button>
+      </div>
+      <a href="#contact" class="btn btn-primary" data-cta="header" data-i18n="nav_cta">Request a Quote</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============================== HERO ============================== -->
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <h1 data-i18n="hero_h1">Handcrafted Vietnamese Wooden Kitchenware for the Global Table</h1>
+    <p data-i18n="hero_sub">Partner with Vietnam's leading B2B exporter of high-quality, sustainable wooden kitchen solutions.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary" data-cta="hero_quote" data-i18n="hero_cta1">Request a Catalog &amp; Quote</a>
+      <a href="#caps" class="btn btn-ghost" data-i18n="hero_cta2">Learn More About Us</a>
+    </div>
+  </div>
+
+  <div class="trustbar">
+    <div class="wrap">
+      <div class="certs">
+        <span class="cert"><b>FSC</b></span>
+        <span class="cert"><b>ISO</b> 9001</span>
+        <span class="cert">SMETA</span>
+        <span class="cert">GSV</span>
+        <span class="cert"><b>Food</b> Safe</span>
+      </div>
+      <span class="trust-label" data-i18n="trust_label">Trusted by major Korean retailers</span>
+      <div class="retailers">
+        <span>Coupang</span><span>Gmarket</span><span>LOTTE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PRODUCTS ============================== -->
+<section class="products" id="products">
+  <div class="section-head reveal">
+    <h2 data-i18n="prod_h2">Premium Wooden Kitchenware Solutions</h2>
+    <p data-i18n="prod_sub">Direct from our specialized factories in Vietnam to your business. Explore our major product categories.</p>
+  </div>
+  <div class="top-link reveal">
+    <a href="#contact"><span data-i18n="prod_viewall">View all products</span> →</a>
+  </div>
+  <div class="wrap">
+    <div class="grid4">
+      <div class="pcard reveal">
+        <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="3" width="13" height="18" rx="2"/><circle cx="19" cy="6" r="1.4" fill="currentColor"/></svg></div>
+        <h3 data-i18n="cat_boards">Cutting Boards</h3>
+        <span class="tag"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.8 7.2 17.4l.9-5.4L4.2 8.2l5.4-.8z"/></svg><span data-i18n="oem_tag">OEM / ODM available</span></span>
+      </div>
+      <div class="pcard reveal">
+        <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M7 7c0-2 2-3 5-3s5 1 5 3"/></svg></div>
+        <h3 data-i18n="cat_bowls">Bowls &amp; Plates</h3>
+        <span class="tag"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.8 7.2 17.4l.9-5.4L4.2 8.2l5.4-.8z"/></svg><span data-i18n="oem_tag">OEM / ODM available</span></span>
+      </div>
+      <div class="pcard reveal">
+        <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="18" height="11" rx="2"/><path d="M3 11h18M6 7V5M18 7V5"/></svg></div>
+        <h3 data-i18n="cat_trays">Serving Trays</h3>
+        <span class="tag"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.8 7.2 17.4l.9-5.4L4.2 8.2l5.4-.8z"/></svg><span data-i18n="oem_tag">OEM / ODM available</span></span>
+      </div>
+      <div class="pcard reveal">
+        <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 3v8M5 11h4v8a2 2 0 0 1-4 0z"/><path d="M16 3c-2 0-3 3-3 6s1 4 3 4 3-1 3-4-1-6-3-6zM16 13v8"/></svg></div>
+        <h3 data-i18n="cat_utensils">Kitchen Utensils</h3>
+        <span class="tag"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.8 7.2 17.4l.9-5.4L4.2 8.2l5.4-.8z"/></svg><span data-i18n="oem_tag">OEM / ODM available</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CAPABILITIES / FOOD-SAFE ============================== -->
+<section class="caps" id="caps">
+  <div class="wrap">
+    <div class="photo reveal">
+      <!-- Replace with your factory / workshop photo -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 21V10l6-4v3l6-4v3l6-4v17z"/><path d="M3 21h18"/></svg>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="caps_eyebrow">Manufacturing capabilities</span>
+      <h2 data-i18n="caps_h2">Food-Safe &amp; Built for Global Retail</h2>
+      <p class="lead" data-i18n="caps_lead">Partner with us for kitchenware that meets international quality standards. We offer comprehensive manufacturing solutions for global retail markets.</p>
+
+      <div class="feat">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c4 5 6 8 6 11a6 6 0 0 1-12 0c0-3 2-6 6-11z"/></svg></div>
+        <span data-i18n="feat1">Food-safe oil / lacquer finish</span>
+      </div>
+      <div class="feat">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3v6L4 19a2 2 0 0 0 2 3h12a2 2 0 0 0 2-3L15 9V3M8 3h8"/></svg></div>
+        <span data-i18n="feat2">Lab-tested</span>
+      </div>
+      <div class="feat">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+        <span data-i18n="feat3">OEM / ODM custom production</span>
+      </div>
+      <div class="feat">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><path d="M3 7l9 4 9-4M12 11v10"/></svg></div>
+        <span data-i18n="feat4">Export-ready packaging</span>
+      </div>
+
+      <div class="cap-certs">
+        <div><span class="badge">ISO</span> ISO 9001</div>
+        <div><span class="badge">FSC</span> FSC</div>
+        <div><span class="badge">✓</span> <span data-i18n="cap_foodtest">Food-safety test</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PROCESS ============================== -->
+<section class="process" id="process">
+  <div class="section-head reveal">
+    <span class="eyebrow" style="display:block" data-i18n="proc_eyebrow">How we work</span>
+    <h2 data-i18n="proc_h2">From inquiry to your warehouse</h2>
+    <p data-i18n="proc_sub">A clear, transparent workflow built for importers and retail buyers.</p>
+  </div>
+  <div class="wrap">
+    <div class="steps">
+      <div class="step reveal"><h3 data-i18n="step1_h">Sample &amp; spec</h3><p data-i18n="step1_p">Share your requirements; we provide samples and full specifications.</p></div>
+      <div class="step reveal"><h3 data-i18n="step2_h">Custom design</h3><p data-i18n="step2_p">OEM / ODM design, private label and packaging tailored to your brand.</p></div>
+      <div class="step reveal"><h3 data-i18n="step3_h">Production &amp; QC</h3><p data-i18n="step3_p">Controlled manufacturing with multi-stage quality inspection.</p></div>
+      <div class="step reveal"><h3 data-i18n="step4_h">Export &amp; delivery</h3><p data-i18n="step4_p">Export documentation, certificates of origin and reliable shipping.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== INSIGHTS / SEO BLOG SPACE ============================== -->
+<section class="insights" id="insights">
+  <div class="section-head reveal">
+    <span class="eyebrow" style="display:block" data-i18n="ins_eyebrow">Insights</span>
+    <h2 data-i18n="ins_h2">Sourcing guides &amp; market insights</h2>
+    <p data-i18n="ins_sub">Your space for SEO articles — sourcing guides, compliance, and wooden kitchenware trends.</p>
+  </div>
+  <div class="wrap">
+    <div class="grid3">
+      <article class="acard reveal">
+        <div class="ph"></div>
+        <div class="body">
+          <span class="cat" data-i18n="ins_cat1">Compliance</span>
+          <h3 data-i18n="ins_t1">Food-safety standards for wooden kitchenware exports</h3>
+          <a class="read" href="#" data-i18n="ins_read">Read article →</a>
+        </div>
+      </article>
+      <article class="acard reveal">
+        <div class="ph"></div>
+        <div class="body">
+          <span class="cat" data-i18n="ins_cat2">Sourcing</span>
+          <h3 data-i18n="ins_t2">OEM vs ODM: choosing the right model for your retail brand</h3>
+          <a class="read" href="#" data-i18n="ins_read">Read article →</a>
+        </div>
+      </article>
+      <article class="acard reveal">
+        <div class="ph"></div>
+        <div class="body">
+          <span class="cat" data-i18n="ins_cat3">Materials</span>
+          <h3 data-i18n="ins_t3">Acacia wood &amp; oil finishes: durability for daily kitchen use</h3>
+          <a class="read" href="#" data-i18n="ins_read">Read article →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== LEAD FORM ============================== -->
+<section class="lead" id="contact">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" style="display:block;color:var(--sage)" data-i18n="lead_eyebrow">Get started</span>
+      <h2 data-i18n="lead_h2">Request your catalog &amp; quote</h2>
+      <p class="lead-sub" data-i18n="lead_sub">Tell us about your needs — our export team replies within 24 hours.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="lead_b1">Free samples for qualified importers</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="lead_b2">Full OEM / ODM &amp; private-label support</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="lead_b3">Export documentation handled end-to-end</span></li>
+      </ul>
+    </div>
+
+    <div class="form">
+      <form id="leadForm" novalidate>
+        <div class="row">
+          <div class="field"><label data-i18n="f_company">Company name</label><input name="company" required></div>
+          <div class="field"><label data-i18n="f_country">Country</label><input name="country" required></div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label data-i18n="f_type">Business type</label>
+            <select name="type">
+              <option data-i18n="f_type_imp">Importer</option>
+              <option data-i18n="f_type_ret">Retailer / Supermarket</option>
+              <option data-i18n="f_type_dist">Distributor</option>
+              <option data-i18n="f_type_brand">Brand (private label)</option>
+            </select>
+          </div>
+          <div class="field"><label data-i18n="f_volume">Est. order volume</label><input name="volume" placeholder="e.g. 5,000 pcs"></div>
+        </div>
+        <div class="row">
+          <div class="field"><label>Email</label><input type="email" name="email" required></div>
+          <div class="field"><label>WhatsApp</label><input name="whatsapp"></div>
+        </div>
+        <div class="field"><label data-i18n="f_product">Product of interest</label><input name="product" placeholder="Cutting boards, bowls, trays..."></div>
+        <div class="field"><label data-i18n="f_message">Message</label><textarea name="message"></textarea></div>
+        <button type="submit" class="btn btn-primary" data-i18n="f_submit">Send request</button>
+        <p class="form-note" data-i18n="f_note">We reply within 24h · Your details stay confidential</p>
+      </form>
+      <div class="form-ok" id="formOk">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>
+        <h3 data-i18n="ok_h">Thank you — request received</h3>
+        <p data-i18n="ok_p">Our export team will get back to you within 24 hours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <div class="brand">
+          <svg class="leaf" viewBox="0 0 48 48" fill="none" style="color:#fff"><path d="M9 40V20l15-12 15 12v20" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 30c-4-1-7-4-7-8 4 0 7 2 7 5 0-4 3-7 7-7 0 5-3 9-7 10z" fill="#6FA15B"/></svg>
+          <span>DEVIAS HOME<small style="letter-spacing:.28em;font-size:.6rem;font-weight:500;display:block">KITCHEN DECO</small></span>
+        </div>
+        <p data-i18n="foot_tag">Vietnamese manufacturer & B2B exporter of food-safe wooden kitchenware. OEM / ODM for global retail.</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_office">Office</h4>
+        <p>183/14/5 Nguyen Van Khoi, Ward 8,<br>Go Vap District, Ho Chi Minh City, Vietnam</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_factory">Manufacturer</h4>
+        <p>Nghi Lam Commune, Nghi Loc District,<br>Nghe An Province, Vietnam</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_contact">Contact</h4>
+        <ul>
+          <li>WhatsApp: <a href="https://wa.me/84911326989">+84 911326989</a></li>
+          <li>Email: <a href="mailto:lynh.huynhhoang@gmail.com">lynh.huynhhoang@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© <span id="year"></span> DEVIAS HOME — Kitchen Deco. All rights reserved.</span>
+      <span>Made in Vietnam · FSC · ISO 9001 · Food-safe</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   i18n DICTIONARY  (EN / KO / VI)
+   ============================================================ */
+const I18N = {
+  en:{
+    nav_products:"Products", nav_caps:"Capabilities", nav_sustain:"Sustainability", nav_about:"About", nav_contact:"Contact", nav_cta:"Request a Quote",
+    hero_h1:"Handcrafted Vietnamese Wooden Kitchenware for the Global Table",
+    hero_sub:"Partner with Vietnam's leading B2B exporter of high-quality, sustainable wooden kitchen solutions.",
+    hero_cta1:"Request a Catalog & Quote", hero_cta2:"Learn More About Us",
+    trust_label:"Trusted by major Korean retailers",
+    prod_h2:"Premium Wooden Kitchenware Solutions",
+    prod_sub:"Direct from our specialized factories in Vietnam to your business. Explore our major product categories.",
+    prod_viewall:"View all products",
+    cat_boards:"Cutting Boards", cat_bowls:"Bowls & Plates", cat_trays:"Serving Trays", cat_utensils:"Kitchen Utensils",
+    oem_tag:"OEM / ODM available",
+    caps_eyebrow:"Manufacturing capabilities", caps_h2:"Food-Safe & Built for Global Retail",
+    caps_lead:"Partner with us for kitchenware that meets international quality standards. We offer comprehensive manufacturing solutions for global retail markets.",
+    feat1:"Food-safe oil / lacquer finish", feat2:"Lab-tested", feat3:"OEM / ODM custom production", feat4:"Export-ready packaging",
+    cap_foodtest:"Food-safety test",
+    proc_eyebrow:"How we work", proc_h2:"From inquiry to your warehouse", proc_sub:"A clear, transparent workflow built for importers and retail buyers.",
+    step1_h:"Sample & spec", step1_p:"Share your requirements; we provide samples and full specifications.",
+    step2_h:"Custom design", step2_p:"OEM / ODM design, private label and packaging tailored to your brand.",
+    step3_h:"Production & QC", step3_p:"Controlled manufacturing with multi-stage quality inspection.",
+    step4_h:"Export & delivery", step4_p:"Export documentation, certificates of origin and reliable shipping.",
+    ins_eyebrow:"Insights", ins_h2:"Sourcing guides & market insights",
+    ins_sub:"Your space for SEO articles — sourcing guides, compliance, and wooden kitchenware trends.",
+    ins_cat1:"Compliance", ins_t1:"Food-safety standards for wooden kitchenware exports",
+    ins_cat2:"Sourcing", ins_t2:"OEM vs ODM: choosing the right model for your retail brand",
+    ins_cat3:"Materials", ins_t3:"Acacia wood & oil finishes: durability for daily kitchen use",
+    ins_read:"Read article →",
+    lead_eyebrow:"Get started", lead_h2:"Request your catalog & quote",
+    lead_sub:"Tell us about your needs — our export team replies within 24 hours.",
+    lead_b1:"Free samples for qualified importers", lead_b2:"Full OEM / ODM & private-label support", lead_b3:"Export documentation handled end-to-end",
+    f_company:"Company name", f_country:"Country", f_type:"Business type",
+    f_type_imp:"Importer", f_type_ret:"Retailer / Supermarket", f_type_dist:"Distributor", f_type_brand:"Brand (private label)",
+    f_volume:"Est. order volume", f_product:"Product of interest", f_message:"Message",
+    f_submit:"Send request", f_note:"We reply within 24h · Your details stay confidential",
+    ok_h:"Thank you — request received", ok_p:"Our export team will get back to you within 24 hours.",
+    foot_tag:"Vietnamese manufacturer & B2B exporter of food-safe wooden kitchenware. OEM / ODM for global retail.",
+    foot_office:"Office", foot_factory:"Manufacturer", foot_contact:"Contact"
+  },
+  ko:{
+    nav_products:"제품", nav_caps:"생산 역량", nav_sustain:"지속가능성", nav_about:"회사소개", nav_contact:"문의", nav_cta:"견적 요청",
+    hero_h1:"글로벌 식탁을 위한 베트남 수제 원목 주방용품",
+    hero_sub:"베트남 대표 B2B 수출 파트너와 함께 고품질·친환경 원목 주방 솔루션을 만나보세요.",
+    hero_cta1:"카탈로그 & 견적 요청", hero_cta2:"회사 더 알아보기",
+    trust_label:"한국 주요 유통업체가 신뢰합니다",
+    prod_h2:"프리미엄 원목 주방용품 솔루션",
+    prod_sub:"베트남 전문 공장에서 귀사로 직접 공급합니다. 주요 제품 카테고리를 살펴보세요.",
+    prod_viewall:"전체 제품 보기",
+    cat_boards:"도마", cat_bowls:"그릇 & 접시", cat_trays:"서빙 트레이", cat_utensils:"주방 도구",
+    oem_tag:"OEM / ODM 가능",
+    caps_eyebrow:"제조 역량", caps_h2:"식품 안전, 글로벌 리테일을 위한 제조",
+    caps_lead:"국제 품질 기준을 충족하는 주방용품을 위한 파트너. 글로벌 리테일 시장을 위한 통합 제조 솔루션을 제공합니다.",
+    feat1:"식품 안전 오일 / 래커 마감", feat2:"시험 인증 완료", feat3:"OEM / ODM 맞춤 생산", feat4:"수출용 포장",
+    cap_foodtest:"식품 안전 시험",
+    proc_eyebrow:"진행 방식", proc_h2:"문의부터 귀사 창고까지", proc_sub:"수입업체와 리테일 바이어를 위한 명확하고 투명한 프로세스.",
+    step1_h:"샘플 & 사양", step1_p:"요구사항을 알려주시면 샘플과 전체 사양을 제공합니다.",
+    step2_h:"맞춤 디자인", step2_p:"OEM / ODM 디자인, 프라이빗 라벨 및 포장을 브랜드에 맞춰 제작합니다.",
+    step3_h:"생산 & 품질관리", step3_p:"다단계 품질 검사를 통한 관리된 제조 공정.",
+    step4_h:"수출 & 배송", step4_p:"수출 서류, 원산지 증명 및 안정적인 운송을 지원합니다.",
+    ins_eyebrow:"인사이트", ins_h2:"소싱 가이드 & 시장 인사이트",
+    ins_sub:"SEO 콘텐츠 공간 — 소싱 가이드, 규정 준수, 원목 주방용품 트렌드.",
+    ins_cat1:"규정 준수", ins_t1:"원목 주방용품 수출을 위한 식품 안전 기준",
+    ins_cat2:"소싱", ins_t2:"OEM vs ODM: 리테일 브랜드에 맞는 모델 선택하기",
+    ins_cat3:"소재", ins_t3:"아카시아 원목과 오일 마감: 일상 주방 사용을 위한 내구성",
+    ins_read:"자세히 보기 →",
+    lead_eyebrow:"시작하기", lead_h2:"카탈로그 & 견적 요청",
+    lead_sub:"필요사항을 알려주시면 수출팀이 24시간 이내에 답변드립니다.",
+    lead_b1:"검증된 수입업체 대상 무료 샘플", lead_b2:"OEM / ODM 및 프라이빗 라벨 풀 지원", lead_b3:"수출 서류 일괄 처리",
+    f_company:"회사명", f_country:"국가", f_type:"사업 형태",
+    f_type_imp:"수입업체", f_type_ret:"리테일 / 마트", f_type_dist:"유통업체", f_type_brand:"브랜드 (프라이빗 라벨)",
+    f_volume:"예상 주문 수량", f_product:"관심 제품", f_message:"메시지",
+    f_submit:"요청 보내기", f_note:"24시간 이내 답변 · 정보는 안전하게 보호됩니다",
+    ok_h:"감사합니다 — 요청이 접수되었습니다", ok_p:"수출팀이 24시간 이내에 연락드리겠습니다.",
+    foot_tag:"식품 안전 원목 주방용품의 베트남 제조 및 B2B 수출 기업. 글로벌 리테일을 위한 OEM / ODM.",
+    foot_office:"사무실", foot_factory:"제조 공장", foot_contact:"문의"
+  },
+  vi:{
+    nav_products:"Sản phẩm", nav_caps:"Năng lực", nav_sustain:"Bền vững", nav_about:"Giới thiệu", nav_contact:"Liên hệ", nav_cta:"Nhận báo giá",
+    hero_h1:"Đồ dùng nhà bếp gỗ thủ công Việt Nam cho gian bếp toàn cầu",
+    hero_sub:"Hợp tác cùng nhà xuất khẩu B2B hàng đầu Việt Nam về giải pháp nhà bếp gỗ bền vững, chất lượng cao.",
+    hero_cta1:"Nhận catalog & báo giá", hero_cta2:"Tìm hiểu về chúng tôi",
+    trust_label:"Được các nhà bán lẻ lớn tại Hàn Quốc tin dùng",
+    prod_h2:"Giải pháp đồ dùng nhà bếp gỗ cao cấp",
+    prod_sub:"Sản xuất trực tiếp tại nhà máy chuyên biệt ở Việt Nam, cung cấp thẳng cho doanh nghiệp của bạn. Khám phá các nhóm sản phẩm chính.",
+    prod_viewall:"Xem tất cả sản phẩm",
+    cat_boards:"Thớt gỗ", cat_bowls:"Bát & Đĩa", cat_trays:"Khay phục vụ", cat_utensils:"Dụng cụ bếp",
+    oem_tag:"Nhận OEM / ODM",
+    caps_eyebrow:"Năng lực sản xuất", caps_h2:"An toàn thực phẩm, sẵn sàng cho bán lẻ toàn cầu",
+    caps_lead:"Đồng hành cùng chúng tôi với sản phẩm đạt tiêu chuẩn chất lượng quốc tế. Chúng tôi cung cấp giải pháp sản xuất toàn diện cho thị trường bán lẻ toàn cầu.",
+    feat1:"Hoàn thiện sơn mài / lau dầu an toàn thực phẩm", feat2:"Đã kiểm nghiệm", feat3:"Sản xuất OEM / ODM theo yêu cầu", feat4:"Đóng gói sẵn sàng xuất khẩu",
+    cap_foodtest:"Kiểm nghiệm an toàn thực phẩm",
+    proc_eyebrow:"Cách chúng tôi làm việc", proc_h2:"Từ yêu cầu đến kho hàng của bạn", proc_sub:"Quy trình rõ ràng, minh bạch cho nhà nhập khẩu và buyer bán lẻ.",
+    step1_h:"Mẫu & thông số", step1_p:"Chia sẻ yêu cầu của bạn; chúng tôi cung cấp mẫu và thông số đầy đủ.",
+    step2_h:"Thiết kế riêng", step2_p:"Thiết kế OEM / ODM, nhãn riêng và bao bì theo thương hiệu của bạn.",
+    step3_h:"Sản xuất & QC", step3_p:"Sản xuất được kiểm soát với kiểm tra chất lượng nhiều giai đoạn.",
+    step4_h:"Xuất khẩu & giao hàng", step4_p:"Chứng từ xuất khẩu, C/O và vận chuyển đáng tin cậy.",
+    ins_eyebrow:"Bài viết", ins_h2:"Cẩm nang sourcing & insight thị trường",
+    ins_sub:"Không gian cho bài viết SEO — cẩm nang sourcing, tuân thủ và xu hướng đồ bếp gỗ.",
+    ins_cat1:"Tuân thủ", ins_t1:"Tiêu chuẩn an toàn thực phẩm khi xuất khẩu đồ bếp gỗ",
+    ins_cat2:"Sourcing", ins_t2:"OEM hay ODM: chọn mô hình phù hợp cho thương hiệu bán lẻ",
+    ins_cat3:"Vật liệu", ins_t3:"Gỗ keo & lớp lau dầu: độ bền cho sử dụng bếp hàng ngày",
+    ins_read:"Đọc bài viết →",
+    lead_eyebrow:"Bắt đầu", lead_h2:"Nhận catalog & báo giá",
+    lead_sub:"Cho chúng tôi biết nhu cầu của bạn — đội xuất khẩu phản hồi trong vòng 24 giờ.",
+    lead_b1:"Mẫu miễn phí cho nhà nhập khẩu đủ điều kiện", lead_b2:"Hỗ trợ đầy đủ OEM / ODM & nhãn riêng", lead_b3:"Xử lý trọn gói chứng từ xuất khẩu",
+    f_company:"Tên công ty", f_country:"Quốc gia", f_type:"Loại hình doanh nghiệp",
+    f_type_imp:"Nhà nhập khẩu", f_type_ret:"Bán lẻ / Siêu thị", f_type_dist:"Nhà phân phối", f_type_brand:"Thương hiệu (nhãn riêng)",
+    f_volume:"Sản lượng dự kiến", f_product:"Sản phẩm quan tâm", f_message:"Lời nhắn",
+    f_submit:"Gửi yêu cầu", f_note:"Phản hồi trong 24h · Thông tin được bảo mật",
+    ok_h:"Cảm ơn — đã nhận yêu cầu", ok_p:"Đội xuất khẩu sẽ liên hệ lại với bạn trong vòng 24 giờ.",
+    foot_tag:"Nhà sản xuất & xuất khẩu B2B đồ dùng nhà bếp gỗ an toàn thực phẩm từ Việt Nam. OEM / ODM cho bán lẻ toàn cầu.",
+    foot_office:"Văn phòng", foot_factory:"Nhà máy sản xuất", foot_contact:"Liên hệ"
+  }
+};
+
+/* SEO meta per language */
+const META = {
+  en:{title:"DEVIAS HOME — Vietnamese Wooden Kitchenware Manufacturer & Exporter (OEM/ODM)",
+      desc:"Vietnam-based manufacturer and B2B exporter of food-safe wooden kitchenware. OEM/ODM cutting boards, bowls, trays and utensils."},
+  ko:{title:"DEVIAS HOME — 베트남 원목 주방용품 제조·수출 (OEM/ODM)",
+      desc:"식품 안전 원목 주방용품의 베트남 제조 및 B2B 수출. OEM/ODM 도마, 그릇, 트레이, 주방 도구."},
+  vi:{title:"DEVIAS HOME — Nhà sản xuất & xuất khẩu đồ bếp gỗ Việt Nam (OEM/ODM)",
+      desc:"Nhà sản xuất và xuất khẩu B2B đồ dùng nhà bếp gỗ an toàn thực phẩm từ Việt Nam. OEM/ODM thớt, bát, khay, dụng cụ bếp."}
+};
+
+function setLang(lang){
+  const dict = I18N[lang]; if(!dict) return;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const k = el.getAttribute('data-i18n');
+    if(dict[k]!==undefined) el.textContent = dict[k];
+  });
+  document.documentElement.lang = lang;
+  document.title = META[lang].title;
+  const md = document.querySelector('meta[name="description"]');
+  if(md) md.setAttribute('content', META[lang].desc);
+  document.querySelectorAll('.lang button').forEach(b=>{
+    b.classList.toggle('active', b.getAttribute('data-lang')===lang);
+  });
+  try{ localStorage.setItem('devias_lang', lang); }catch(e){}
+}
+
+document.querySelectorAll('.lang button').forEach(b=>{
+  b.addEventListener('click',()=>{ setLang(b.getAttribute('data-lang')); closeMenu(); });
+});
+
+/* default language: saved → browser → en */
+(function(){
+  let saved=null; try{ saved=localStorage.getItem('devias_lang'); }catch(e){}
+  const browser = (navigator.language||'en').slice(0,2);
+  const start = saved || (I18N[browser]?browser:'en');
+  setLang(start);
+})();
+
+/* ---------- header scroll state ---------- */
+const header=document.getElementById('header');
+window.addEventListener('scroll',()=>{ header.classList.toggle('scrolled', window.scrollY>40); });
+
+/* ---------- mobile menu ---------- */
+const menu=document.getElementById('menu'), burger=document.getElementById('burger');
+function closeMenu(){ menu.classList.remove('open'); }
+burger.addEventListener('click',()=> menu.classList.toggle('open'));
+menu.querySelectorAll('a').forEach(a=> a.addEventListener('click', closeMenu));
+
+/* ---------- scroll reveal ---------- */
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ---------- CTA + form tracking (GA4 + Meta Pixel) ---------- */
+function trackLead(source){
+  if(typeof gtag==='function') gtag('event','generate_lead',{source:source});
+  if(typeof fbq==='function')  fbq('track','Lead',{content_name:source});
+}
+document.querySelectorAll('[data-cta]').forEach(el=>{
+  el.addEventListener('click',()=> trackLead(el.getAttribute('data-cta')));
+});
+
+/* ---------- form submit ---------- */
+document.getElementById('leadForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  if(!this.checkValidity()){ this.reportValidity(); return; }
+  // TODO: send data to your endpoint / email service / n8n webhook here.
+  trackLead('lead_form');
+  this.style.display='none';
+  document.getElementById('formOk').style.display='block';
+});
+
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>

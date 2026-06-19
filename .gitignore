@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+
+# Antigravity / Gemini local state (keep project AGENTS.md tracked)
+.gemini/
+.agent/cache/
+
+# Env / secrets
+.env
+.env.*
+
+# Node (if you later migrate to Next.js)
+node_modules/
+.next/
+dist/
+*.log
