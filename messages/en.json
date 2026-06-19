@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "DEVIAS HOME — Vietnamese Wooden Kitchenware Manufacturer & Exporter (OEM/ODM)",
+    "description": "Vietnam-based manufacturer and B2B exporter of food-safe wooden kitchenware. OEM/ODM cutting boards, bowls, trays and utensils."
+  },
+  "nav": {
+    "products": "Products",
+    "caps": "Capabilities",
+    "sustain": "Sustainability",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Request a Quote"
+  },
+  "hero": {
+    "h1": "Handcrafted Vietnamese Wooden Kitchenware for the Global Table",
+    "sub": "Partner with Vietnam's leading B2B exporter of high-quality, sustainable wooden kitchen solutions.",
+    "cta1": "Request a Catalog & Quote",
+    "cta2": "Learn More About Us"
+  },
+  "trust": {
+    "label": "Trusted by major Korean retailers"
+  },
+  "products": {
+    "h2": "Premium Wooden Kitchenware Solutions",
+    "sub": "Direct from our specialized factories in Vietnam to your business. Explore our major product categories.",
+    "viewall": "View all products",
+    "oem_tag": "OEM / ODM available",
+    "cat_boards": "Cutting Boards",
+    "cat_bowls": "Bowls & Plates",
+    "cat_trays": "Serving Trays",
+    "cat_utensils": "Kitchen Utensils"
+  },
+  "caps": {
+    "eyebrow": "Manufacturing capabilities",
+    "h2": "Food-Safe & Built for Global Retail",
+    "lead": "Partner with us for kitchenware that meets international quality standards. We offer comprehensive manufacturing solutions for global retail markets.",
+    "feat1": "Food-safe oil / lacquer finish",
+    "feat2": "Lab-tested",
+    "feat3": "OEM / ODM custom production",
+    "feat4": "Export-ready packaging",
+    "foodtest": "Food-safety test"
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "h2": "From inquiry to your warehouse",
+    "sub": "A clear, transparent workflow built for importers and retail buyers.",
+    "step1_h": "Sample & spec",
+    "step1_p": "Share your requirements; we provide samples and full specifications.",
+    "step2_h": "Custom design",
+    "step2_p": "OEM / ODM design, private label and packaging tailored to your brand.",
+    "step3_h": "Production & QC",
+    "step3_p": "Controlled manufacturing with multi-stage quality inspection.",
+    "step4_h": "Export & delivery",
+    "step4_p": "Export documentation, certificates of origin and reliable shipping."
+  },
+  "insights": {
+    "eyebrow": "Insights",
+    "h2": "Sourcing guides & market insights",
+    "sub": "Your space for SEO articles — sourcing guides, compliance, and wooden kitchenware trends.",
+    "cat1": "Compliance",
+    "t1": "Food-safety standards for wooden kitchenware exports",
+    "cat2": "Sourcing",
+    "t2": "OEM vs ODM: choosing the right model for your retail brand",
+    "cat3": "Materials",
+    "t3": "Acacia wood & oil finishes: durability for daily kitchen use",
+    "read": "Read article →"
+  },
+  "lead": {
+    "eyebrow": "Get started",
+    "h2": "Request your catalog & quote",
+    "sub": "Tell us about your needs — our export team replies within 24 hours.",
+    "b1": "Free samples for qualified importers",
+    "b2": "Full OEM / ODM & private-label support",
+    "b3": "Export documentation handled end-to-end"
+  },
+  "form": {
+    "company": "Company name",
+    "country": "Country",
+    "type": "Business type",
+    "type_imp": "Importer",
+    "type_ret": "Retailer / Supermarket",
+    "type_dist": "Distributor",
+    "type_brand": "Brand (private label)",
+    "volume": "Est. order volume",
+    "volume_ph": "e.g. 5,000 pcs",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "product": "Product of interest",
+    "product_ph": "Cutting boards, bowls, trays...",
+    "message": "Message",
+    "submit": "Send request",
+    "note": "We reply within 24h · Your details stay confidential",
+    "error": "Something went wrong — please try again or email us directly.",
+    "ok_h": "Thank you — request received",
+    "ok_p": "Our export team will get back to you within 24 hours."
+  },
+  "footer": {
+    "tag": "Vietnamese manufacturer & B2B exporter of food-safe wooden kitchenware. OEM / ODM for global retail.",
+    "office": "Office",
+    "factory": "Manufacturer",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "made_in": "Made in Vietnam · FSC · ISO 9001 · Food-safe"
+  }
+}

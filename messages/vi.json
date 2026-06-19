@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "DEVIAS HOME — Nhà sản xuất & xuất khẩu đồ bếp gỗ Việt Nam (OEM/ODM)",
+    "description": "Nhà sản xuất và xuất khẩu B2B đồ dùng nhà bếp gỗ an toàn thực phẩm từ Việt Nam. OEM/ODM thớt, bát, khay, dụng cụ bếp."
+  },
+  "nav": {
+    "products": "Sản phẩm",
+    "caps": "Năng lực",
+    "sustain": "Bền vững",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "cta": "Nhận báo giá"
+  },
+  "hero": {
+    "h1": "Đồ dùng nhà bếp gỗ thủ công Việt Nam cho gian bếp toàn cầu",
+    "sub": "Hợp tác cùng nhà xuất khẩu B2B hàng đầu Việt Nam về giải pháp nhà bếp gỗ bền vững, chất lượng cao.",
+    "cta1": "Nhận catalog & báo giá",
+    "cta2": "Tìm hiểu về chúng tôi"
+  },
+  "trust": {
+    "label": "Được các nhà bán lẻ lớn tại Hàn Quốc tin dùng"
+  },
+  "products": {
+    "h2": "Giải pháp đồ dùng nhà bếp gỗ cao cấp",
+    "sub": "Sản xuất trực tiếp tại nhà máy chuyên biệt ở Việt Nam, cung cấp thẳng cho doanh nghiệp của bạn. Khám phá các nhóm sản phẩm chính.",
+    "viewall": "Xem tất cả sản phẩm",
+    "oem_tag": "Nhận OEM / ODM",
+    "cat_boards": "Thớt gỗ",
+    "cat_bowls": "Bát & Đĩa",
+    "cat_trays": "Khay phục vụ",
+    "cat_utensils": "Dụng cụ bếp"
+  },
+  "caps": {
+    "eyebrow": "Năng lực sản xuất",
+    "h2": "An toàn thực phẩm, sẵn sàng cho bán lẻ toàn cầu",
+    "lead": "Đồng hành cùng chúng tôi với sản phẩm đạt tiêu chuẩn chất lượng quốc tế. Chúng tôi cung cấp giải pháp sản xuất toàn diện cho thị trường bán lẻ toàn cầu.",
+    "feat1": "Hoàn thiện sơn mài / lau dầu an toàn thực phẩm",
+    "feat2": "Đã kiểm nghiệm",
+    "feat3": "Sản xuất OEM / ODM theo yêu cầu",
+    "feat4": "Đóng gói sẵn sàng xuất khẩu",
+    "foodtest": "Kiểm nghiệm an toàn thực phẩm"
+  },
+  "process": {
+    "eyebrow": "Cách chúng tôi làm việc",
+    "h2": "Từ yêu cầu đến kho hàng của bạn",
+    "sub": "Quy trình rõ ràng, minh bạch cho nhà nhập khẩu và buyer bán lẻ.",
+    "step1_h": "Mẫu & thông số",
+    "step1_p": "Chia sẻ yêu cầu của bạn; chúng tôi cung cấp mẫu và thông số đầy đủ.",
+    "step2_h": "Thiết kế riêng",
+    "step2_p": "Thiết kế OEM / ODM, nhãn riêng và bao bì theo thương hiệu của bạn.",
+    "step3_h": "Sản xuất & QC",
+    "step3_p": "Sản xuất được kiểm soát với kiểm tra chất lượng nhiều giai đoạn.",
+    "step4_h": "Xuất khẩu & giao hàng",
+    "step4_p": "Chứng từ xuất khẩu, C/O và vận chuyển đáng tin cậy."
+  },
+  "insights": {
+    "eyebrow": "Bài viết",
+    "h2": "Cẩm nang sourcing & insight thị trường",
+    "sub": "Không gian cho bài viết SEO — cẩm nang sourcing, tuân thủ và xu hướng đồ bếp gỗ.",
+    "cat1": "Tuân thủ",
+    "t1": "Tiêu chuẩn an toàn thực phẩm khi xuất khẩu đồ bếp gỗ",
+    "cat2": "Sourcing",
+    "t2": "OEM hay ODM: chọn mô hình phù hợp cho thương hiệu bán lẻ",
+    "cat3": "Vật liệu",
+    "t3": "Gỗ keo & lớp lau dầu: độ bền cho sử dụng bếp hàng ngày",
+    "read": "Đọc bài viết →"
+  },
+  "lead": {
+    "eyebrow": "Bắt đầu",
+    "h2": "Nhận catalog & báo giá",
+    "sub": "Cho chúng tôi biết nhu cầu của bạn — đội xuất khẩu phản hồi trong vòng 24 giờ.",
+    "b1": "Mẫu miễn phí cho nhà nhập khẩu đủ điều kiện",
+    "b2": "Hỗ trợ đầy đủ OEM / ODM & nhãn riêng",
+    "b3": "Xử lý trọn gói chứng từ xuất khẩu"
+  },
+  "form": {
+    "company": "Tên công ty",
+    "country": "Quốc gia",
+    "type": "Loại hình doanh nghiệp",
+    "type_imp": "Nhà nhập khẩu",
+    "type_ret": "Bán lẻ / Siêu thị",
+    "type_dist": "Nhà phân phối",
+    "type_brand": "Thương hiệu (nhãn riêng)",
+    "volume": "Sản lượng dự kiến",
+    "volume_ph": "ví dụ: 5.000 cái",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "product": "Sản phẩm quan tâm",
+    "product_ph": "Thớt, bát, khay...",
+    "message": "Lời nhắn",
+    "submit": "Gửi yêu cầu",
+    "note": "Phản hồi trong 24h · Thông tin được bảo mật",
+    "error": "Đã có lỗi xảy ra — vui lòng thử lại hoặc gửi email trực tiếp cho chúng tôi.",
+    "ok_h": "Cảm ơn — đã nhận yêu cầu",
+    "ok_p": "Đội xuất khẩu sẽ liên hệ lại với bạn trong vòng 24 giờ."
+  },
+  "footer": {
+    "tag": "Nhà sản xuất & xuất khẩu B2B đồ dùng nhà bếp gỗ an toàn thực phẩm từ Việt Nam. OEM / ODM cho bán lẻ toàn cầu.",
+    "office": "Văn phòng",
+    "factory": "Nhà máy sản xuất",
+    "contact": "Liên hệ",
+    "rights": "Bảo lưu mọi quyền.",
+    "made_in": "Sản xuất tại Việt Nam · FSC · ISO 9001 · An toàn thực phẩm"
+  }
+}
