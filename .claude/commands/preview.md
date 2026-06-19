@@ -2,10 +2,18 @@
 description: Serve the site locally for preview.
 ---
 
-Start a static web server in the project root so I can preview the site:
+Start the Next.js dev server so I can preview the site:
 
 ```bash
-python3 -m http.server 8000
+npm run dev
 ```
 
-Then tell me to open http://localhost:8000 in the browser, and to press Ctrl+C in the terminal to stop the server when finished.
+Then tell me to open http://localhost:3000 (it redirects to `/en`; also try `/ko`
+and `/vi`) in the browser, and to press Ctrl+C in the terminal to stop the server
+when finished.
+
+For a production-parity preview, build and start instead:
+
+```bash
+npm run build && npm run start
+```

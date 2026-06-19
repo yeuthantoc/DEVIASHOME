@@ -15,8 +15,14 @@ Thumbs.db
 .env.*
 !.env.example
 
-# Node (if you migrate to Next.js)
+# Node / Next.js
 node_modules/
 .next/
+out/
+build/
+coverage/
 dist/
 *.log
+*.tsbuildinfo
+next-env.d.ts
+.vercel
